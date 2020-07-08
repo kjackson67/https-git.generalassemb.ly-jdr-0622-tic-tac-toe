@@ -2,6 +2,6 @@
 const container = document.querySelector("#game-container");
 let gameActive = true;
 let currentPlayer = "X";
-let gameState = ["", "", "", "", "", "", "", "", ""];
+let gameMoves = ["", "", "", "", "", "", "", "", ""];
 
 const 
