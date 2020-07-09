@@ -1,5 +1,6 @@
 body {
     font-family: "serif", arial;
+    font-size: 35px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,9 +16,9 @@ body {
      grid-template-columns: repeat(3, auto); 
      /* https://dev.to/bornasepic/pure-and-simple-tic-tac-toe-with-javascript-4pgn */
      /* grid-gap: 50px; */
-     height: 300px;
-     background-color: black;
-     width: 300px;
+     height: 350px;
+     background-color: yellow;
+     width: 350px;
      /* margin: 40px auto; */
  }
  .square {
@@ -26,6 +27,9 @@ body {
      /* width: 75px;
      height: 75px; */
      box-shadow: blue;
-     border: 2px solid grey
+     border: 2px solid black;
+ }
+ .game-reset {
+     font-size: 25px;
  }
  
